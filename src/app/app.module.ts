@@ -4,31 +4,31 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { AjoutComponent } from './ajout/ajout.component';
-import { ReservationComponent } from './reservation/reservation.component';
-import { RechercheComponent } from './recherche/recherche.component';
-import { SupprimerComponent } from './supprimer/supprimer.component';
-import { AjouterComponent } from './ajouter/ajouter.component';
-import { BiblioComponent } from './biblio/biblio.component';
-import { SearchbarComponent } from './searchbar/searchbar.component';
-import { RechercheParComponent } from './recherche-par/recherche-par.component';
+import { MyfooterComponent } from './myfooter/myfooter.component';
+import { AproposComponent } from './apropos/apropos.component';
+import { LivresComponent } from './livres/livres.component';
+import { AdherantsComponent } from './adherants/adherants.component';
+import { HttpClientModule } from '@angular/common/http';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    AjoutComponent,
-    ReservationComponent,
-    RechercheComponent,
-    SupprimerComponent,
-    AjouterComponent,
-    BiblioComponent,
-    SearchbarComponent,
-    RechercheParComponent
+    MyfooterComponent,
+    AproposComponent,
+    LivresComponent,
+    AdherantsComponent,
+    
+    
+    
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

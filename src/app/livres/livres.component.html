@@ -1,0 +1,43 @@
+
+<div id="divcontainer" class="containter">
+    <div id="divrow" class="row">
+        <div id="divcol1" class="col-md-4">
+            <div class="panel panel-primary">
+                <div id="divcat" class="panel-heading">Categorie</div>
+                <ul *ngIf="ville" class="list-group">
+                    <li ngFor="let c of categ._embedded.categories">
+                        {{c.nom_cat}}
+                    </li>
+                    
+
+                </ul>
+
+
+            </div>
+
+        </div>
+        <div id="divcol2"class="col-md-8">
+            <div class="panel panel-primary">
+                <div id="divlivres" class="panel-heading">Liste des livres</div>
+                <ul class="list-group">
+                    <li class="list-group-item">livre 1</li>
+                    <li class="list-group-item">livre 2</li>
+                    <li class="list-group-item">livre 3</li>
+                    <li class="list-group-item">livre 4</li>
+                    <li class="list-group-item">livre 5</li>
+                    <li class="list-group-item">livre 6</li>
+                    <li class="list-group-item">livre 7</li>
+                    <li class="list-group-item">livre 8</li>
+                    <li class="list-group-item">livre 9</li>
+
+                </ul>
+
+
+            </div>
+
+        </div>
+
+    </div>
+ 
+
+</div>
